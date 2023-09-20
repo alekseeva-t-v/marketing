@@ -1,20 +1,17 @@
 :root {
-  --container-width: 1200px;
-  --container-padding: 15px;
+  --container-width: 1190px;
+  --container-padding: 10px;
 
-  --font-main: 'Poppins', sans-serif;
-  --font-accent: 'Playfair Display', serif;
+  --font-main: 'Open Sans', sans-serif;
+  --font-accent: 'Montserrat', sans-serif;
 
-  --page-bg: #ffffff;
-  --text-color: #000000;
-  --accent: #ac182c;
+  // --page-bg: #ffffff;
+  --text-color: #373a39;;
+  --accent: #fcbb08;
+  --light: #ffffff;
 
-  --laptop-size: 1199px;
-  --tablet-size: 959px;
-  --mobile-size: 599px;
+  // --laptop-size: 1199px;
+  // --tablet-size: 959px;
+  // --mobile-size: 599px;
 }
 
-.dark {
-  --page-bg: #252526;
-  --text-color: #fff;
-}

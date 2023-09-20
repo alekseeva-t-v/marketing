@@ -1,9 +1,18 @@
+// font-family: 'Merriweather', serif;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Raleway', sans-serif;
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: var(--page-bg);
+  // background-color: var(--page-bg);
   color: var(--text-color);
   font-family: var(--font-main);
+  font-weight: 300;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
 }

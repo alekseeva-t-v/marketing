@@ -1,0 +1,23 @@
+.magic {
+  background-color: var(--page-bg);
+  background-image: url(../img/magic-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: left 80%;
+
+  &__inner {
+    max-width: 470px;
+    margin-left: auto;
+    padding: 100px 0 190px;
+  }
+
+  &__title {
+    margin-bottom: 67px;
+  }
+
+  &__text {
+    p {
+      margin-bottom: 25px;
+    }
+  }
+}

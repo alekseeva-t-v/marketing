@@ -1,0 +1,18 @@
+.about {
+  background-color: var(--page-bg);
+  padding: 143px 0 144px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text {
+    padding-top: 9px;
+
+    p{
+      max-width: 770px;
+      margin-bottom: 16px;
+    }
+  }
+}

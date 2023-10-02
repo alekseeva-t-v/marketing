@@ -22,6 +22,7 @@
     "gulp-webp": "^4.0.1",
     "gulp-webp-css": "^1.1.0",
     "gulp-webp-html": "^1.0.2",
+    "mixitup": "^3.3.1",
     "sass": "^1.63.6",
     "style-loader": "^3.3.3",
     "webpack-stream": "^7.0.0"
@@ -35,6 +36,7 @@
     "last 5 versions"
   ],
   "dependencies": {
+    "@fancyapps/ui": "^5.0.23",
     "air-datepicker": "^3.3.5"
   }
 }

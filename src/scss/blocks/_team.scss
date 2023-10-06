@@ -1,0 +1,29 @@
+.team {
+  padding: 120px 0 130px;
+
+  &__title {
+    margin-bottom: 100px;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__name {
+    padding: 35px 0 12px;
+    text-align: center;
+    font-family: var(--font-accent);
+    font-size: 14px;
+    font-weight: 700;
+    color: #333333;
+  }
+
+  &__position {
+    text-align: center;
+    font-size: 12px;
+    color: var(--text-color);
+  }
+}

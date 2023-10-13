@@ -3,9 +3,10 @@
     <div class="container">
       <div class="header__top-inner">
         <a class="logo" href="#">
-          <img class="logo__img" src="./img/logo.svg" alt="Логотип" />
+          @@include('logo-icon.html')
         </a>
         <nav class="menu">
+          <button class="menu__btn">@@include('menu-icon.html')</button>
           <ul class="menu__list">
             <li class="menu__list-item">
               <a class="menu__list-link" href="#">HOME</a>
@@ -46,5 +47,3 @@
     </div>
   </div>
 </header>
-
-@@include('mobile-nav.html')

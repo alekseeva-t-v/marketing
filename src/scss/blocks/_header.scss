@@ -4,6 +4,24 @@
     justify-content: space-between;
     align-items: flex-end;
     padding-bottom: 29px;
+
+    &.header__top-inner--active {
+      .menu__list {
+        transform: translateY(0);
+      }
+
+      .menu__btn {
+        svg {
+          stroke: var(--light);
+        }
+      }
+
+      .logo {
+        svg {
+          fill: var(--light)
+        }
+      }
+    }
   }
 
   &__content {
@@ -44,5 +62,34 @@
 
   &__icon {
     margin-bottom: 62px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    &__title {
+      margin-bottom: 15px;
+      font-size: 60px;
+      line-height: 70px;
+    }
+
+    &__subtitle {
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    &__title {
+      font-size: 38px;
+      line-height: 50px;
+    }
+
+    &__subtitle {
+      font-size: 12px;
+      line-height: 16px;
+    }
   }
 }

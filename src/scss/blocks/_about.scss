@@ -16,3 +16,37 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+  .about {
+		&__inner {
+      display: block;
+    }
+
+    &__title {
+      margin-bottom: 30px;
+    }
+
+    &__text {
+      p{
+        max-width: 100%;
+      }
+    }
+	}
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 70px 0 70px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about {
+    padding: 35px 0 35px;
+
+    &__title {
+      margin-bottom: 15px;
+    }
+  }
+}

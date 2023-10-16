@@ -21,3 +21,55 @@
     }
   }
 }
+
+@media (max-width: 1440px) {
+  .magic {
+    &__inner {
+      padding: 50px 20px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .magic {
+    &__inner {
+      padding: 5px 5px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .magic {
+    background-image: none;
+
+    &__title {
+      margin-bottom: 30px;
+    }
+
+    &__inner {
+      max-width: 100%;
+      margin-left: 0;
+      padding: 140px 0 140px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .magic {
+    &__inner {
+      padding: 70px 0 70px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .magic {
+    &__inner {
+      padding: 35px 0 35px;
+    }
+
+    &__title {
+      margin-bottom: 15px;
+    }
+  }
+}

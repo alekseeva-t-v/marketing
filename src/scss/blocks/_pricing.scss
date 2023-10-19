@@ -55,3 +55,41 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+  .pricing {
+    &__title {
+      margin-bottom: 30px;
+    }
+
+    &__items {
+      gap: 20px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .pricing {
+    padding: 70px 0 70px;
+
+    &__items {
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+    ul.pricing__item {
+      width: 70%;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .pricing {
+    padding: 35px 0 35px;
+
+    ul.pricing__item {
+      width: 90%;
+    }
+  }
+}

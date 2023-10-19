@@ -27,3 +27,35 @@
     color: var(--text-color);
   }
 }
+
+@media (max-width: 1200px) {
+  .team {
+    &__title {
+      margin-bottom: 30px;
+    }
+
+    &__items {
+      gap: 20px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .team {
+    padding: 70px 0 70px;
+  }
+}
+
+@media (max-width: 576px) {
+  .team {
+    &__items {
+      display: block;
+    }
+
+    &__item {
+      img {
+        margin: 0 auto;
+      }
+    }
+  }
+}

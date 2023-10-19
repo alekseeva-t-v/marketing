@@ -5,6 +5,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
     list-style-type: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .clients {
+    padding: 70px 0 70px;
+
+    &__list {
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .clients {
+    padding: 35px 0 35px;
   }
 }

@@ -15,6 +15,7 @@
   &__social {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
   &__social-item {
@@ -50,7 +51,7 @@
   }
 
   &__copy {
-		padding: 43px 10px 41px;
+    padding: 43px 10px 41px;
     text-align: center;
     font-size: 12px;
     font-weight: 400;
@@ -61,4 +62,37 @@
 
 .go-top {
   display: inline-block;
+}
+
+@media (max-width: 992px) {
+  .footer {
+    &__top {
+      padding-top: 75px;
+    }
+
+    &__logo {
+      margin-bottom: 40px;
+    }
+
+    &__social-item {
+      width: 33.333%;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .footer {
+    &__top {
+      padding-top: 40px;
+    }
+
+    &__logo {
+      margin-bottom: 25px;
+    }
+
+    &__social-item {
+      width: 50%;
+    }
+  }
 }

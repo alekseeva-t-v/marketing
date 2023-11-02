@@ -14,6 +14,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 52px;
+    text-transform: uppercase;
     color: var(--title-color);
   }
 
@@ -109,10 +110,6 @@
 }
 
 @media (max-width: 576px) {
-  .slider-blog {
-    padding: 35px 0 35px;
-  }
-
   .slider-blog__item-title {
     font-size: 23px;
     line-height: 32px;

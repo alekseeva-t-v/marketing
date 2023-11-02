@@ -1,4 +1,13 @@
 .header {
+  &__top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+
   &__top-inner {
     display: flex;
     justify-content: space-between;
@@ -15,16 +24,19 @@
           stroke: var(--light);
         }
       }
+    }
 
+    &.header__top-inner--active-logo {
       .logo {
         svg {
-          fill: var(--light)
+          fill: var(--light);
         }
       }
     }
   }
 
   &__content {
+    padding-top: 100px;
     background-image: url('../img/header-bg.jpg');
     background-repeat: no-repeat;
     background-position: center center;
@@ -62,6 +74,14 @@
 
   &__icon {
     margin-bottom: 62px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header {
+    &__top-inner {
+      padding-bottom: 5px;
+    }
   }
 }
 
